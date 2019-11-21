@@ -2,14 +2,14 @@ var http = require('http');
 
 http.createServer(function (request, response) {
 
-    // ·¢ËÍ HTTP Í·²¿ 
-    // HTTP ×´Ì¬Öµ: 200 : OK
-    // ÄÚÈİÀàĞÍ: text/plain
+    // å‘é€ HTTP å¤´éƒ¨ 
+    // HTTP çŠ¶æ€å€¼: 200 : OK
+    // å†…å®¹ç±»å‹: text/plain
     response.writeHead(200, {'Content-Type': 'text/plain'});
 
-    // ·¢ËÍÏìÓ¦Êı¾İ "Hello World,will"
-    response.end('Hello World,The date is 2019-11-21 19:43,hi will\n');
+    // å‘é€å“åº”æ•°æ® "Hello World,will"
+    response.end('Hello World,The date is 2019-11-21 19:46,hi louis hihihi\n');
 }).listen(80);
 
-// ÖÕ¶Ë´òÓ¡ÈçÏÂĞÅÏ¢
+// ç»ˆç«¯æ‰“å°å¦‚ä¸‹ä¿¡æ¯
 console.log('Server running at http://127.0.0.1:80/');

@@ -8,7 +8,7 @@ http.createServer(function (request, response) {
     response.writeHead(200, {'Content-Type': 'text/plain'});
 
     // 发送响应数据 "Hello World,will"
-    response.end('Hello World,The date is 2019-11-21 19:29,hi will\n');
+    response.end('Hello World,The date is 2019-11-21 19:43,hi will\n');
 }).listen(80);
 
 // 终端打印如下信息
